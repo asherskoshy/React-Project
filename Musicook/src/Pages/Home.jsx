@@ -1,6 +1,6 @@
 import React from 'react'
-
-
+import './style.css'
+import { Link } from 'react-router-dom'
 export const Home = (props) => {
   return (
     <div>
@@ -8,10 +8,8 @@ export const Home = (props) => {
       <header>
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Discover</a></li>
-            <li><a href="#">Library</a></li>
-            <li><a href="#">Profile</a></li>
+            <li><Link to="/Insert" >Insert </Link></li>
+            <li><Link to="/List" >List </Link></li>
           </ul>
         </nav>
       </header>
